@@ -1,6 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/deveiie/public_html/
+    - export DEPLOYPATH=/home/deveiie/public_html/demo_test_eiie/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp plugin.js $DEPLOYPATH
